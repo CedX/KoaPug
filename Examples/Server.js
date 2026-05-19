@@ -1,4 +1,4 @@
-import {pug} from "@cedx/KoaPug";
+import {pug} from "@cedx/koa-pug";
 import Koa from "koa";
 import console from "node:console";
 import {join} from "node:path";
@@ -9,9 +9,9 @@ const app = new Koa;
 
 // Configure the view renderer.
 pug(app, {
-	basedir: join(import.meta.dirname, "../res"),
-	cache: app.env == "production",
-	compileDebug: app.env != "production"
+	basedir: join(import.meta.dirname, "../Resources"),
+	cache: app.env == "Production",
+	compileDebug: app.env != "Production"
 });
 
 // Configure the data shared by all views.
@@ -28,7 +28,7 @@ app.use(async ctx => {
 });
 
 // Start the application.
-if (app.env != "test")
+if (app.env != "Testing")
 	app.listen({host: "127.0.0.1", port: 3000}, () => console.log("Server listening on http://127.0.0.1:3000..."));
 
 export default app;

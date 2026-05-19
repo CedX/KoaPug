@@ -2,8 +2,8 @@
 A [Koa](https://koajs.com) view renderer based on the [Pug](https://pugjs.org) template engine.
 
 ## Documentation
-- [User guide](https://github.com/CedX/KoaPug/tree/main/docs)
-- [Examples](https://github.com/CedX/KoaPug/tree/main/example)
+- [User guide](https://github.com/CedX/KoaPug/tree/main/Documentation)
+- [Examples](https://github.com/CedX/KoaPug/tree/main/Examples)
 
 ## Development
 - [Git repository](https://github.com/CedX/KoaPug)

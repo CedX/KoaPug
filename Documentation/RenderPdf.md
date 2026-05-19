@@ -5,7 +5,7 @@ Its signature and usage are basically the same as those of [the `ctx.render()` m
 except that it returns a [Buffer](https://nodejs.org/api/buffer.html) instead of a string.
 
 ```js
-import {pug} from "@cedx/KoaPug";
+import {pug} from "@cedx/koa-pug";
 import Koa from "koa";
 import {join} from "node:path";
 

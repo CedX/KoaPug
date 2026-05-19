@@ -2,7 +2,7 @@
 This method lets you render a [Pug](https://pugjs.org) template as a **string** and send it as HTTP response.
 
 ```js
-import {pug} from "@cedx/KoaPug";
+import {pug} from "@cedx/koa-pug";
 import Koa from "koa";
 import {join} from "node:path";
 
