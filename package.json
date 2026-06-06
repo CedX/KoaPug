@@ -8,6 +8,9 @@
 	"repository": "CedX/KoaPug",
 	"type": "module",
 	"version": "3.0.0",
+	"allowScripts": {
+		"playwright-chromium": true
+	},
 	"dependencies": {
 		"playwright": "^1.60.0",
 		"playwright-chromium": "^1.60.0",
@@ -16,7 +19,7 @@
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
 		"@types/koa": "^3.0.2",
-		"@types/node": "^25.9.1",
+		"@types/node": "^25.9.2",
 		"@types/pug": "^2.0.10",
 		"globals": "^17.6.0",
 		"koa": "^3.2.1",
