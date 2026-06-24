@@ -12,7 +12,7 @@
 		"playwright-chromium": true
 	},
 	"dependencies": {
-		"playwright": "^1.61.0",
+		"playwright": "^1.61.1",
 		"playwright-chromium": "^1.61.0",
 		"pug": "^3.0.4"
 	},
@@ -21,10 +21,10 @@
 		"@types/koa": "^3.0.2",
 		"@types/node": "^26.0.0",
 		"@types/pug": "^2.0.10",
-		"globals": "^17.6.0",
+		"globals": "^17.7.0",
 		"koa": "^3.2.1",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.61.1"
+		"typescript-eslint": "^8.62.0"
 	},
 	"engines": {
 		"node": ">=26.0.0"
