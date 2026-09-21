@@ -4,7 +4,7 @@ A [Koa](https://koajs.com) view renderer based on the [Pug](https://pugjs.org) t
 ## Quick start
 Install the latest version of **Pug for Koa** with [npm](https://www.npmjs.com) package manager:
 
-```shell
+```powershell
 npm install @cedx/koa-pug
 ```
 
