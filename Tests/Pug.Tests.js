@@ -26,13 +26,11 @@ describe("pug()", () => {
 			(response.headers.get("content-type") ?? "").should.equal("text/html; charset=utf-8");
 			response.status.should.equal(200);
 
-			/* eslint-disable @typescript-eslint/no-unused-expressions */
 			const body = await response.text();
 			body.startsWith("<!DOCTYPE html>").should.be.true;
 			body.should.include("<title>Pug for Koa</title>");
 			body.should.include(`<b>${pkg.version}</b>`);
 			body.trimEnd().endsWith("</html>").should.be.true;
-			/* eslint-enable @typescript-eslint/no-unused-expressions */
 		});
 	});
 
@@ -47,12 +45,10 @@ describe("pug()", () => {
 			(response.headers.get("content-type") ?? "").should.equal("application/pdf");
 			response.status.should.equal(200);
 
-			/* eslint-disable @typescript-eslint/no-unused-expressions */
 			const body = await response.text();
 			body.startsWith("%PDF-").should.be.true;
 			body.should.include("/Title (Pug for Koa)");
 			body.trimEnd().endsWith("%%EOF").should.be.true;
-			/* eslint-enable @typescript-eslint/no-unused-expressions */
 		});
 	});
 });
