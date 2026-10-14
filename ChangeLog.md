@@ -1,5 +1,10 @@
 # Changelog
 
+## Version [2026.10.0](https://github.com/CedX/KoaPug/compare/v3.0.0...v2026.10.0)
+- Breaking change: raised the required [Node.js](https://nodejs.org) version.
+- Switched to a year-based versioning.
+- Updated the package dependencies.
+
 ## Version [3.0.0](https://github.com/CedX/KoaPug/compare/v2.0.0...v3.0.0)
 - Breaking change: raised the required [Koa](https://koajs.com) version.
 - The [Chromium](https://www.chromium.org/Home) browser is now automatically installed.

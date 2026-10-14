@@ -7,7 +7,7 @@
 	"name": "@cedx/koa-pug",
 	"repository": "CedX/KoaPug",
 	"type": "module",
-	"version": "3.0.0",
+	"version": "2026.10.0",
 	"allowScripts": {
 		"playwright-chromium": true
 	},
