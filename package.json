@@ -12,8 +12,8 @@
 		"playwright-chromium": true
 	},
 	"dependencies": {
-		"playwright": "^1.64.0",
-		"playwright-chromium": "^1.62.1",
+		"playwright": "^1.65.0",
+		"playwright-chromium": "^1.65.0",
 		"pug": "^3.0.4"
 	},
 	"devDependencies": {
